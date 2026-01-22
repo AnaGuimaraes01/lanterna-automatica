@@ -35,10 +35,10 @@ export default function Index() {
         enableTorch={torchOn}
       />
 
-      <Text style={styles.title}>📱 Sacudir para Ligar a Lanterna</Text>
+      <Text style={styles.title}> LANTERNA AUTOMÁTICA ACELERÔMETRO</Text>
 
       <Text style={styles.text}>
-        Lanterna: {torchOn ? 'Ligada 🔦' : 'Desligada'}
+        Lanterna: {torchOn ? 'Ligada ' : 'Desligada'}
       </Text>
 
       <Text style={styles.info}>
@@ -50,24 +50,24 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#111',
+    backgroundColor: '#b16ac7b6',
     alignItems: 'center',
     justifyContent: 'center',
   },
   title: {
     fontSize: 22,
-    color: '#fff',
+    color: '#141313',
     marginBottom: 20,
     fontWeight: 'bold',
     textAlign: 'center',
   },
   text: {
     fontSize: 18,
-    color: '#fff',
+    color: '#121010',
     marginBottom: 10,
   },
   info: {
     fontSize: 14,
-    color: '#ccc',
+    color: '#1a1515',
   },
 });
